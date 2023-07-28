@@ -13,7 +13,7 @@ export default function FooterSmall(props) {
         <div className="container mx-auto px-4">
           <hr className="mb-6 border-b-1 border-gray-700" />
           <div className="flex flex-wrap items-center md:justify-between justify-center">
-            <div className="w-full md:w-4/12 px-4">
+            <div className="w-full md:w-4/12 px-4 item-center flex  justify-around md:justify-between" >
               <div className="text-sm text-white font-semibold py-1">
                 Copyright © {new Date().getFullYear()}{" "}
                 <a
